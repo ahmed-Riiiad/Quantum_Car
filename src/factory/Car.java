@@ -11,6 +11,11 @@ public class Car {
         this.engine = engine;
     }
 
+    public void setEngine(Engine engine) {
+    this.engine = engine;
+    System.out.println("Engine replaced successfully");
+}
+
     public void start() {
         speed = 0;
         engine.setSpeed(0);

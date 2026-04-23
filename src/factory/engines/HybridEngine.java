@@ -1,6 +1,6 @@
 package factory.engines;
 
-public class HybridEngineEngine implements Engine {
+public class HybridEngine implements Engine {
 
     private ElectronicEngine electric = new ElectronicEngine();
     private GasolineEngine gas = new GasolineEngine();
