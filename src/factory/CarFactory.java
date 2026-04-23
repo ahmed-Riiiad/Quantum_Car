@@ -14,7 +14,7 @@ public class CarFactory {
                 return new Car(new ElectronicEngine());
 
             case "hybrid":
-                return new Car(new MixedHybridEngine());
+                return new Car(new HybridEngineEngine());
 
             default:
                 throw new RuntimeException("Unknown engine type");
